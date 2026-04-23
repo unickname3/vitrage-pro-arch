@@ -1,0 +1,35 @@
+.tt-tools-button,
+.btn.btn-primary {
+    min-height: 44px;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.page-header-title,
+.tt-heading-title {
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+}
+
+.post-content p,
+.intro-description,
+.vp-contact-form .form-control {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.vp-contact-form .form-group {
+    margin-bottom: 14px;
+}
+
+.vp-contact-form .form-control:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.4);
+    outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+    .tt-wrap {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

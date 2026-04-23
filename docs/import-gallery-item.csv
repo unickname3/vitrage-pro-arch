@@ -1,0 +1,4 @@
+post_title,post_content,post_status,featured_image_url,gallery_category,slug
+"Окна","Описание работы по витражным окнам","publish","https://example.com/uploads/okna-1.jpg","Окна","okna"
+"Двери","Описание работы по витражным дверям","publish","https://example.com/uploads/dveri-1.jpg","Двери","dveri"
+"Мозаика","Описание проекта мозаики","publish","https://example.com/uploads/mozaika-1.jpg","Мозаика","mozaika"

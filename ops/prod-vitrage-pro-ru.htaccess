@@ -1,0 +1,44 @@
+RewriteEngine On
+
+# Canonical host and HTTPS
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.vitrage-pro\.ru$ [NC]
+RewriteRule ^ https://vitrage-pro.ru%{REQUEST_URI} [L,R=301]
+
+# Legacy .html redirects
+Redirect 301 /index.html /
+Redirect 301 /about.html /about/
+Redirect 301 /about/ceny.html /about/ceny/
+Redirect 301 /gallery.html /gallery/
+Redirect 301 /gallery/fyuzing.html /gallery/fyuzing/
+Redirect 301 /gallery/okna.html /gallery/okna/
+Redirect 301 /gallery/podarki.html /gallery/podarki/
+Redirect 301 /gallery/dveri.html /gallery/dveri/
+Redirect 301 /gallery/mozaika.html /gallery/mozaika/
+Redirect 301 /gallery/interery.html /gallery/interery/
+Redirect 301 /gallery/peregorodki.html /gallery/peregorodki/
+Redirect 301 /gallery/potolki.html /gallery/potolki/
+Redirect 301 /gallery/svetilniki.html /gallery/svetilniki/
+Redirect 301 /gallery/rospis.html /gallery/rospis/
+Redirect 301 /komanda.html /komanda/
+Redirect 301 /komanda/spec-1.html /komanda/spec-1/
+Redirect 301 /komanda/spec-2.html /komanda/spec-2/
+Redirect 301 /komanda/spec-3.html /komanda/spec-3/
+Redirect 301 /komanda/spec-4.html /komanda/spec-4/
+Redirect 301 /komanda/spec-5.html /komanda/spec-5/
+Redirect 301 /reviews.html /reviews/
+Redirect 301 /reviews/review-1.html /reviews/review-1/
+Redirect 301 /reviews/review-2.html /reviews/review-2/
+Redirect 301 /reviews/review-3.html /reviews/review-3/
+Redirect 301 /news/news-1.html /news/news-1/
+Redirect 301 /news/news-2.html /news/news-2/
+Redirect 301 /news/news-3.html /news/news-3/
+Redirect 301 /price.html /price/
+Redirect 301 /contacts.html /contacts/
+
+# WordPress front controller
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]

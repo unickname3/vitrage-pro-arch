@@ -1,0 +1,4 @@
+post_title,post_content,post_status,featured_image_url,slug
+"Мельгунова Ольга","Краткое описание специалиста","publish","https://example.com/uploads/team-1.jpg","melgunova-olga"
+"Калиничева Мария","Краткое описание специалиста","publish","https://example.com/uploads/team-2.jpg","kalinicheva-mariya"
+"Атаева Елена","Краткое описание специалиста","publish","https://example.com/uploads/team-3.jpg","ataeva-elena"

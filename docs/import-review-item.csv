@@ -1,0 +1,4 @@
+post_title,post_content,post_status,slug
+"Отзыв 1","Текст отзыва клиента","publish","review-1"
+"Отзыв 2","Текст отзыва клиента","publish","review-2"
+"Отзыв 3","Текст отзыва клиента","publish","review-3"
