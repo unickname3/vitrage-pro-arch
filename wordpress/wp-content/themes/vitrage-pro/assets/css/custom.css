@@ -33,3 +33,56 @@
         padding-right: 16px;
     }
 }
+
+/* Результат формы */
+.vp-form-result {
+    display: none;
+    margin-top: 20px;
+    padding: 14px 18px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.vp-form-success {
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.vp-form-error {
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+/* Сетка новостей */
+.vp-news-card .post-thumb {
+    margin-bottom: 16px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.vp-news-card .post-thumb img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.vp-news-card:hover .post-thumb img {
+    transform: scale(1.03);
+}
+
+/* Кнопка «Задать вопрос» в шапке */
+.tt-tools-button {
+    white-space: nowrap;
+}
+
+/* Хлебные крошки на тёмном фоне */
+.bread li {
+    display: inline;
+}
+
+.bread a {
+    color: #08c1b8;
+}

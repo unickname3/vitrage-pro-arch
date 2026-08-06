@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: vitrage-pro.ru
+Sitemap: https://vitrage-pro.ru/sitemap.xml

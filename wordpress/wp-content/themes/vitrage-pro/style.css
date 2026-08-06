@@ -2,9 +2,16 @@
 Theme Name: Vitrage Pro
 Theme URI: https://vitrage-pro.ru/
 Author: Vitrage Pro Team
-Description: Кастомная тема на базе существующего дизайна vitrage-pro.
+Author URI: https://vitrage-pro.ru/
+Description: Тема для сайта-визитки студии художественных витражей «Витраж Про». Повторяет дизайн исходного сайта vitrage-pro.ru и предоставляет владельцу удобную админку: настройки сайта, галерея работ с категориями, команда, отзывы, новости и форма обратной связи — без плагинов.
 Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: vitrage-pro
+Tags: portfolio, photography, one-column, custom-menu, featured-images, translation-ready
 */
 
-/* Main styles are loaded from assets for design parity. */
+/* Основные стили подключаются из assets/css/theme.css, helper.css, dark-style.css, custom.css */

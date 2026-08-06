@@ -1,0 +1,94 @@
+/* Vitrage Pro admin styles */
+
+.vp-media-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.vp-media-item {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    background: #f6f7f7;
+}
+
+.vp-media-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.vp-media-item .vp-media-remove {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.vp-media-item .vp-media-remove:hover {
+    background: #d63638;
+}
+
+.vp-single-media-preview {
+    margin: 10px 0;
+    max-width: 300px;
+}
+
+.vp-single-media-preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+}
+
+.vp-setting-field {
+    max-width: 640px;
+}
+
+.vp-setting-field.wide {
+    max-width: 100%;
+}
+
+.vp-repeater-row {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 10px;
+    max-width: 700px;
+}
+
+.vp-repeater-row .row-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.vp-repeater-row input[type="text"],
+.vp-repeater-row textarea {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.vp-nav-tab-wrapper .nav-tab-active {
+    border-bottom-color: #f0f0f1;
+}
+
+.vp-settings-form .form-table th {
+    width: 220px;
+}
